@@ -82,7 +82,6 @@ export class Game extends React.Component {
         const winner = click ? 
             this.calculateWinnner(click[0], click[1], squares) 
             : null
-        console.log(winner);
         const gameInfo = {
             winner: winner,
             lastClick: click
